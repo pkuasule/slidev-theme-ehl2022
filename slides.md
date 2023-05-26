@@ -1,7 +1,7 @@
 ---
 theme: ehl2022
 layout: Cover
-title: Effecient Communication
+title: Efficient Communication
 
 presenter: true
 download: false
