@@ -1,7 +1,7 @@
 {
   "name": "slidev-theme-ehl2022",
   "description": "ehl china default presentations with Slidev made simple",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "author": {
     "name": "Zhichao Liu",
     "email": "zhichao.liu@ehl.ch",
@@ -15,38 +15,41 @@
   "funding": "https://ko-fi.com/pkuasule",
   "license": "MIT",
   "keywords": [
-    "ehl",
-    "slidev",
     "slidev-theme",
-    "slidev-theme-ehl2022"
+    "slidev",
+    "ehl",
+    "slidev-theme-ehl2022",
+    "theme-ehl2022"
   ],
-  "scripts": {
-    "build": "slidev build",
-    "dev": "slidev --open --remote",
-    "export": "slidev export"
-  },
-  "dependencies": {
-    "@slidev/cli": "^0.40.16",
-    "playwright-chromium": "^1.33.0"
-  },
   "engines": {
     "node": ">=14.0.0",
     "slidev": ">=0.19.3"
   },
+  "scripts": {
+    "build": "slidev build example.md",
+    "dev": "slidev example.md --open",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "dependencies": {
+    "@slidev/types": "^0.40.16",
+    "codemirror-theme-vars": "^0.1.2",
+    "prism-theme-vars": "^0.2.4",
+    "theme-vitesse": "^0.6.4"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.40.16"
+  },
+  "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
   "slidev": {
     "colorSchema": "light",
     "highlighter": "all",
     "defaults": {
       "fonts": {
         "sans": "Noto Sans Simplified Chinese,Montserrat",
-        "serif": "Noto Serif Simplified Chinese,Roboto Slab",
-        "mono": "Roboto Mono"
+        "mono": "Fira Code"
       },
-      "hightlighter": "prism",
-      "themeConfig": {
-        "paginationX": "r",
-        "paginationY": "t"
-      }
+      "hightlighter": "prism"
     }
   }
 }
