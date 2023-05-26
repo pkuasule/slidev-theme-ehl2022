@@ -1,0 +1,52 @@
+{
+  "name": "slidev-theme-ehl2022",
+  "description": "ehl china default presentations with Slidev made simple",
+  "version": "1.0.18",
+  "author": {
+    "name": "Zhichao Liu",
+    "email": "zhichao.liu@ehl.ch",
+    "url": "https://www.ehladvisory.com"
+  },
+  "homepage": "https://www.github.com/pkuasule/slidev-theme-ehl2022",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/pkuasule/slidev-theme-ehl2022"
+  },
+  "funding": "https://ko-fi.com/pkuasule",
+  "license": "MIT",
+  "keywords": [
+    "ehl",
+    "slidev",
+    "slidev-theme",
+    "slidev-theme-ehl2022"
+  ],
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open --remote",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.40.16",
+    "playwright-chromium": "^1.33.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=0.19.3"
+  },
+  "slidev": {
+    "colorSchema": "light",
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "sans": "Montserrat",
+        "serif": "Roboto Slab",
+        "mono": "Roboto Mono"
+      },
+      "hightlighter": "prism",
+      "themeConfig": {
+        "paginationX": "r",
+        "paginationY": "t"
+      }
+    }
+  }
+}
