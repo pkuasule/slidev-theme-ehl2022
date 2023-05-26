@@ -20,7 +20,7 @@ theme: ./theme
 layout: Agenda-Letter
 level: 1
 transition: slide-left
-picBG: '/resources/background-image.png'
+picBG: './resources/background-image.png'
 title: 'Something important'
 ---
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
@@ -30,7 +30,7 @@ theme: ./theme
 layout: Title-1Col-Primary
 level: 1
 transition: slide-left
-picBG: '/resources/background-image.png'
+picBG: './resources/background-image.png'
 title: 'Simply 1 Col'
 ---
 # Title Here
@@ -47,7 +47,7 @@ theme: ./theme
 layout: Title-1Col-Snow
 level: 1
 transition: slide-left
-picBG: '/resources/background-image.png'
+picBG: './resources/background-image.png'
 title: 'Full-Width Table'
 ---
 # Title Here
@@ -70,7 +70,7 @@ theme: ./theme
 layout: Title-2Col-Snow
 level: 1
 transition: slide-left
-picBG: '/resources/background-image.png'
+picBG: './resources/background-image.png'
 title: 'Table on the left'
 ---
 # Title Here
@@ -99,7 +99,7 @@ theme: ./theme
 layout: Title-2Col-Secondary
 level: 1
 transition: slide-left
-picBG: '/resources/background-image.png'
+picBG: './resources/background-image.png'
 title: 'Something important'
 ---
 # Title Here
@@ -126,7 +126,7 @@ theme: ./theme
 layout: Title-6Col-Snow
 level: 1
 transition: slide-left
-picBG: '/resources/background-image.png'
+picBG: './resources/background-image.png'
 title: 'Something important'
 ---
 # Title Here
@@ -173,7 +173,7 @@ theme: ./theme
 layout: Title-Photo-Top
 level: 1
 transition: slide-left
-picBG: '/resources/background-image.png'
+picBG: './resources/background-image.png'
 title: 'Something important'
 ---
 # Section Break
@@ -189,7 +189,7 @@ theme: ./theme
 layout: Title-Photo-Right
 level: 1
 transition: slide-left
-picBG: '/resources/background-image.png'
+picBG: './resources/background-image.png'
 title: 'Something important'
 ---
 # Something with a photo
@@ -206,12 +206,12 @@ theme: ./theme
 layout: Title-Photo-Desc-3Col
 level: 1
 transition: slide-left
-picBG: '/resources/background-image.png'
+picBG: './resources/background-image.png'
 title: 'Something important'
 
-pic1: '/resources/background-image.png'
-pic2: '/resources/background-image.png'
-pic3: '/resources/background-image.png'
+pic1: './resources/background-image.png'
+pic2: './resources/background-image.png'
+pic3: './resources/background-image.png'
 ---
 # Title Here
 ## Subtitle Here
@@ -242,7 +242,7 @@ theme: ./theme
 layout: Quote
 level: 1
 transition: slide-left
-picBG: '/resources/background-image.png'
+picBG: './resources/background-image.png'
 title: 'Something important'
 ---
 # Title Here
@@ -258,7 +258,7 @@ theme: ./theme
 layout: End-Page-Primary
 level: 1
 transition: slide-left
-picBG: '/resources/background-image.png'
+picBG: './resources/background-image.png'
 title: 'Something important'
 ---
 

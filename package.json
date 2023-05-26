@@ -1,7 +1,7 @@
 {
   "name": "slidev-theme-ehl2022",
   "description": "ehl china default presentations with Slidev made simple",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "author": {
     "name": "Zhichao Liu",
     "email": "zhichao.liu@ehl.ch",
@@ -29,7 +29,8 @@
     "build": "slidev build example.md",
     "dev": "slidev example.md --open",
     "export": "slidev export example.md",
-    "screenshot": "slidev export example.md --format png"
+    "screenshot": "slidev export example.md --format png",
+    "setup": "mv resources/ .. && npm run dev"
   },
   "dependencies": {
     "@slidev/types": "^0.40.16",
@@ -45,6 +46,8 @@
     "colorSchema": "light",
     "highlighter": "all",
     "defaults": {
+      "aspectRatio": "16/9",
+      "canvasWidth": 1280,
       "fonts": {
         "sans": "Noto Sans Simplified Chinese,Montserrat",
         "mono": "Fira Code"
