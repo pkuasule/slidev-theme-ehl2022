@@ -36,8 +36,7 @@ $ npm init slidev
 ```bash
 cd slidev
 rm slides.md 
-wget https://github.com/pkuasule/slidev-theme-ehl2022/blob/main/example.md
-mv example.md slides.md
+wget https://github.com/pkuasule/slidev-theme-ehl2022/raw/main/slides.md
 ```
 ### 6B 手动方法
 进入slidev文件夹，打开slides.md，更改默认配置的theme为ehl2022。
