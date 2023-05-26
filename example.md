@@ -170,7 +170,7 @@ Page note that can be modified in presenter mode.
 
 ---
 theme: ./theme
-layout: Title-Photo-Bottom
+layout: Title-Photo-Top
 level: 1
 transition: slide-left
 picBG: '/resources/background-image.png'
@@ -255,7 +255,7 @@ Page note that can be modified in presenter mode.
 
 ---
 theme: ./theme
-layout: End-Page-Blue
+layout: End-Page-Primary
 level: 1
 transition: slide-left
 picBG: '/resources/background-image.png'
