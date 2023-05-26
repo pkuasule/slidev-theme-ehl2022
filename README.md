@@ -32,32 +32,36 @@ $ npm init slidev
 ```
 
 ## 第6步：使用本主题
-### 6A 默认方法
+### 6.A 默认方法
 ```bash
 cd slidev
 rm slides.md 
 wget https://github.com/pkuasule/slidev-theme-ehl2022/raw/main/slides.md
+slidev
 ```
-### 6B 手动方法
-进入slidev文件夹，打开slides.md，更改默认配置的theme为ehl2022。
-```markdown
----
-theme: ehl2022
----
-```
+
 在服务启动后，它会自动提示你是否安装该主题：
 ```bash
 ? The theme "@slidev/theme-seriph" was not found in your project, do you want to install it now? › (Y/n)
 ```
 按`Y`键安装即可
 
-## 第6步：预览当前模板效果
+
+### 6.B 手动方法
+进入slidev文件夹，打开slides.md，更改默认配置的theme为ehl2022。
+```markdown
+---
+theme: ehl2022
+---
+```
+
+## 第7步：预览当前模板效果
 ```bash
 $ slidev
 ```
 
-## 第7步：新建、编辑自己的文件
-### 7.1 新建并打开自己的文件
+## 第8步：新建、编辑自己的文件
+### 8.1 新建并打开自己的文件
 ```bash
 $ slidev 你想要的文件名（可以不要".md"后缀） --open --remote
 ```
@@ -67,7 +71,7 @@ $ slidev Effective_Communication --open --remote
 ```
 > 注意：下次输入同样的命令将不会再新建文件，而是直接启动服务（即播放）。
 
-### 7.2 编辑自己的文件
+### 8.2 编辑自己的文件
 用任意文本编辑器，打开`你想要的文件名.md`编辑即可。
 > 建议的文本编辑器：[Visual Studio Code](https://code.visualstudio.com/)。
 
