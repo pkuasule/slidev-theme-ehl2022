@@ -7,6 +7,8 @@
     <img class="w-full h-full object-cover object-center" :src="picBG">
   </div>
   
+  <global-top.vue />
+  
 </template>
 
 <script setup lang="ts">

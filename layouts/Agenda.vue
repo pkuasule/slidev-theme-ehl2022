@@ -7,4 +7,7 @@
       <slot class="text-sm" />
     </div>
   </div>
+
+  <global-top.vue />
+  
 </template>

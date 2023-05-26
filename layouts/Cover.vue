@@ -7,4 +7,7 @@
       <committed-to-service-excellence class="absolute fill-snow top-10 right-10" height="150" width="150"/>
     </div>
   </div>
+
+  <global-top.vue />
+
 </template>

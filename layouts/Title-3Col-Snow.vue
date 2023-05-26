@@ -15,6 +15,8 @@
       </div>
     </div>
   </div>
+
+  <global-top.vue />
   
 </template>
 

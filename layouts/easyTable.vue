@@ -1,5 +1,8 @@
 <template>
     <ve-table :columns="columns" :table-data="tableData"></ve-table>
+
+    <global-top.vue />
+    
 </template>
 
 

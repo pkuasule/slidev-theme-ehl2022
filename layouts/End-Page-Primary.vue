@@ -28,5 +28,7 @@
     <tailor-made class="absolute fill-secondary right-38 top-18" width="100" />
     <quality-assurance class="absolute fill-secondary top-12 right-10" width="120" />
   </div>
+
+  <global-top.vue />
   
 </template>

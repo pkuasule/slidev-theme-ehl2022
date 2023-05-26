@@ -7,6 +7,8 @@
     
   </div>
   
+  <global-top.vue />
+  
 </template>
 
 <script setup lang="ts">
