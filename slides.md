@@ -1,5 +1,5 @@
 ---
-theme: ./theme
+theme: ehl2022
 layout: Cover
 title: Efficient Communication
 presenter: true
