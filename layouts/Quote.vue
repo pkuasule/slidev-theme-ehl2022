@@ -5,24 +5,29 @@
       <slot />
     </div>
     <img class="w-full h-full object-cover object-center" :src="picBG">
-  </div>
-  
-  <footer 
+    <footer 
       class="absolute text-sm bottom-2 left-12 right-12 py-2 grid grid-cols-2 gap-4">
       <ehl-logo-snow />
       <div class="flex justify-end text-xs text-snow">
         <span class="opacity-25">EHL Corporate Training for {{ $slidev.configs.client }} |&nbsp;</span>{{ $slidev.nav.currentPage - 1}}
       </div>
-  </footer>
-  
+    </footer>
+  </div>
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
+import { handleBackground } from '../layoutHelper'
 import { defineProps } from "vue";
+
 const props = defineProps({
   picBG: {
     type: String,
     required: false,
+  },
+  background: {
+    // random image from a curated Unsplash collection by Anthony
+    default: 'https://source.unsplash.com/collection/94734566/1920x1080',
   },
 });
 </script>

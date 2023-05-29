@@ -49,10 +49,10 @@
       "aspectRatio": "16/9",
       "canvasWidth": 1280,
       "fonts": {
-        "sans": "Noto Sans Simplified Chinese,Montserrat",
+        "sans": "San Francisco,Noto Sans Simplified Chinese,Montserrat",
         "mono": "Fira Code"
       },
-      "hightlighter": "prism"
+      "hightlighter": "all"
     }
   }
 }
