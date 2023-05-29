@@ -1,19 +1,18 @@
 ---
-theme: ehl2022
+theme: ./theme
 layout: Cover
 title: Efficient Communication
-
 presenter: true
 download: false
-
 transition: slide-left
 client: Starrides
 client_contact: Patrick
 prefix: 先生
---- 
+---
 
 # Heading 1
 ## Heading 2
+
 
 ---
 layout: Agenda-Letter
@@ -160,7 +159,7 @@ Page note that can be modified in presenter mode.
 layout: Title-Photo-Top
 level: 1
 transition: slide-left
-picBG: "https://images.unsplash.com/photo-1617972858450-47a880b84bb5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
+picBG: "https://source.unsplash.com/collection/94734566/1920x1080"
 title: 'Something important'
 ---
 # Section Break
@@ -174,7 +173,7 @@ Page note that can be modified in presenter mode.
 layout: Title-Photo-Right
 level: 1
 transition: slide-left
-picBG: "https://images.unsplash.com/photo-1617972858450-47a880b84bb5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
+picBG: "https://source.unsplash.com/collection/94734566/1920x1080"
 title: 'Something important'
 ---
 # Something with a photo
@@ -224,7 +223,7 @@ Page note that can be modified in presenter mode.
 layout: Quote
 level: 1
 transition: slide-left
-picBG: "https://images.unsplash.com/photo-1617972858450-47a880b84bb5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
+picBG: "https://source.unsplash.com/collection/94734566/1920x1080"
 title: 'Something important'
 ---
 # Title Here

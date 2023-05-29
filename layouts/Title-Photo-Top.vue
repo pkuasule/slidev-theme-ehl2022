@@ -1,3 +1,21 @@
+<script setup lang="ts">
+import { computed } from 'vue'
+import { handleBackground } from '../layoutHelper'
+import { defineProps } from "vue";
+
+const props = defineProps({
+  picBG: {
+    type: String,
+    required: false,
+    default: 'https://source.unsplash.com/collection/94734566/1920x1080',
+  },
+  background: {
+    // random image from a curated Unsplash collection by Anthony
+    default: 'https://source.unsplash.com/collection/94734566/1920x1080',
+  },
+});
+</script>
+
 <template>
 
   <div class="slidev-layout h-full w-full Title-Photo-Top primaryPage static p-0">
@@ -19,13 +37,3 @@
   </div>
 
 </template>
-
-<script setup lang="ts">
-import { defineProps } from "vue";
-const props = defineProps({
-  picBG: {
-    type: String,
-    required: false,
-  },
-});
-</script>

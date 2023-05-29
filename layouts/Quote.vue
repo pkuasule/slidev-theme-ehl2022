@@ -1,3 +1,21 @@
+<script setup lang="ts">
+import { computed } from 'vue'
+import { handleBackground } from '../layoutHelper'
+import { defineProps } from "vue";
+
+const props = defineProps({
+  picBG: {
+    type: String,
+    required: false,
+    default: 'https://source.unsplash.com/collection/94734566/1920x1080',
+  },
+  background: {
+    // random image from a curated Unsplash collection by Anthony
+    default: 'https://source.unsplash.com/collection/94734566/1920x1080',
+  },
+});
+</script>
+
 <template>
   <div class="slidev-layout h-full w-full Quote p-0 static">
     <div class="absolute left-0 p-16 pl-16 mt-10 mx-0 w-150 h-150 z-10 bg-primary">
@@ -15,19 +33,3 @@
   </div>
 </template>
 
-<script setup lang="ts">
-import { computed } from 'vue'
-import { handleBackground } from '../layoutHelper'
-import { defineProps } from "vue";
-
-const props = defineProps({
-  picBG: {
-    type: String,
-    required: false,
-  },
-  background: {
-    // random image from a curated Unsplash collection by Anthony
-    default: 'https://source.unsplash.com/collection/94734566/1920x1080',
-  },
-});
-</script>
