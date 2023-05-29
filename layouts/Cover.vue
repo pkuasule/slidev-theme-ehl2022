@@ -22,11 +22,11 @@ const style = computed(() => handleBackground(props.background, true))
       <committed-to-service-excellence class="absolute fill-snow top-10 right-10" height="150" width="150"/>
 
       <footer 
-        class="absolute text-sm bottom-2 left-12 right-12 py-2 border-t-1 border-snow border-opacity-20 grid grid-cols-2 gap-4">
-          <ehl-logo-snow />
-          <div class="flex justify-end">
-            <p class="font-thin text-snow opacity-25 text-xs">EHL Corporate Training for {{ $slidev.configs.client }} </p>
-          </div>
+        class="absolute text-sm bottom-2 left-12 right-12 py-2 border-t-1 border-gray-300 border-opacity-50 grid grid-cols-2 gap-4">
+        <ehl-logo-snow />
+        <div class="flex justify-end text-xs">
+          <span class="text-snow opacity-25">EHL Corporate Training for {{ $slidev.configs.client }} </span>
+        </div>
       </footer>
     </div>
   </div>
