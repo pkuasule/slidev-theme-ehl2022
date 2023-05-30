@@ -113,7 +113,7 @@
 
   /* divider */
   hr {
-      @apply border-t-1 border-gray-300 border-opacity-50 mt-1.5;
+    @apply border-t-1 border-gray-300 border-opacity-50 mt-1.5;
   }
 }
 
@@ -260,3 +260,62 @@
   }
 }
 
+svg {
+  @apply fill-snow my-3 p-2;
+}
+
+.absolute svg {
+    @apply my-0;
+}
+
+.Title-1Col-Snow, .Title-2Col-Snow, .Title-3Col-Snow, .Title-4Col-Snow, .Title-5Col-Snow, .Title-6Col-Snow, .Blank {
+  svg {
+    @apply fill-secondary;
+  }
+}
+
+.Title-Photo-Desc-2Col, .Title-Photo-Desc-3Col, .Title-Photo-Desc-4Col, .Title-Photo-Desc-5Col, .Title-Photo-Desc-6Col {
+  svg {
+    @apply fill-secondary;
+  }
+}
+
+.Title-2Col-Primary, .Title-2Col-Secondary, .Title-2Col-Snow, .Title-Photo-Desc-2Col {
+  .flex {
+    svg {
+      @apply h-60 w-60;
+    }
+  }
+}
+
+.Title-3Col-Primary, .Title-3Col-Secondary, .Title-3Col-Snow, .Title-Photo-Desc-3Col {
+  .flex {
+    svg {
+      @apply h-50 w-50;
+    }
+  }
+}
+
+.Title-4Col-Primary, .Title-4Col-Secondary, .Title-4Col-Snow, .Title-Photo-Desc-4Col {
+  .flex {
+    svg {
+      @apply h-30 w-30;
+    }
+  }
+}
+
+.Title-5Col-Primary, .Title-5Col-Secondary, .Title-5Col-Snow, .Title-Photo-Desc-5Col {
+  .flex {
+    svg {
+      @apply h-20 w-20;
+    }
+  }
+}
+
+.Title-6Col-Primary, .Title-6Col-Secondary, .Title-6Col-Snow, .Title-Photo-Desc-6Col {
+  .flex {
+    svg {
+      @apply h-20 w-20;
+    }
+  }
+}
