@@ -43,7 +43,7 @@ npm run dev
 
 在服务启动后，它会自动提示你是否安装该主题：
 ```bash
-? The theme "@slidev/theme-seriph" was not found in your project, do you want to install it now? › (Y/n)
+? The theme "slidev-theme-ehl2022" was not found in your project, do you want to install it now? › (Y/n)
 ```
 按`Y`键安装即可
 
