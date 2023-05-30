@@ -36,8 +36,9 @@ $ npm init slidev
 ```bash
 cd slidev
 rm slides.md 
-wget https://www.github.com/pkuasule/slidev-theme-ehl2022/raw/main/slides.md
-slidev
+curl -O https://www.github.com/pkuasule/slidev-theme-ehl2022/raw/main/slides.md
+
+npm run dev
 ```
 
 在服务启动后，它会自动提示你是否安装该主题：
@@ -57,7 +58,7 @@ theme: ehl2022
 
 ## 第7步：预览当前模板效果
 ```bash
-$ slidev
+$ npm run dev
 ```
 
 ## 第8步：新建、编辑自己的文件
@@ -89,4 +90,4 @@ $ npm i -g playwright-chromium
 ```bash
 $ slidev export ‘你要导出的文件.md‘
 ```
-> 导出的pdf文件可以在项目的跟目录下找到。
+> 导出的pdf文件可以在项目的根目录下找到。
