@@ -36,7 +36,7 @@ $ npm init slidev
 ```bash
 cd slidev
 rm slides.md 
-curl -O https://www.github.com/pkuasule/slidev-theme-ehl2022/raw/main/slides.md
+wget https://www.github.com/pkuasule/slidev-theme-ehl2022/raw/main/slides.md
 
 npm run dev
 ```
