@@ -1,7 +1,7 @@
 {
   "name": "slidev-theme-ehl2022",
   "description": "ehl china default presentations with Slidev made simple",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "author": {
     "name": "Zhichao Liu",
     "email": "zhichao.liu@ehl.ch",
@@ -48,7 +48,7 @@
     "defaults": {
       "aspectRatio": "16/9",
       "canvasWidth": 1280,
-      "css": "windicss"
+      "css": "windicss",
       "fonts": {
         "sans": "San Francisco,Noto Sans Simplified Chinese,Montserrat",
         "mono": "Fira Code"
