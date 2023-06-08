@@ -1,11 +1,11 @@
-:root {
+/* :root {
   --Primary: #0048BD;
   --Text: #001436;
   --Secondary: #827345;
   --Tertiary: #5B9BD5;
   --Shade: #FAFAFA;
   --White: #FFFFFF;
-}
+} */
 
 .slidev-layout {
   /* @apply 是 Tailwind CSS 框架提供的一种机制，用于将一个或多个样式类应用到当前元素上。 */

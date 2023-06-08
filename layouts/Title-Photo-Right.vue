@@ -39,7 +39,7 @@ const props = defineProps({
           <ehl-logo-secondary />
         </div>
         <div class="flex justify-end text-xs text-snow pt-2 border-t-1 border-snow border-opacity-0">
-          <span class="opacity-25">EHL Corporate Training for {{ $slidev.configs.client }} |&nbsp;</span>{{ $slidev.nav.currentPage - 1}} 
+          <span class="opacity-25">EHL Corporate Training for {{ $slidev.configs.client }} |&nbsp;</span>{{ $slidev.nav.currentPage }} 
         </div>
     </footer>
 
