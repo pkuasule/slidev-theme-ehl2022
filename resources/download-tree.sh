@@ -30,6 +30,6 @@ echo "Remove the unused folder and zip file."
 rm -r ${SCRIPTPATH}/slidev-theme-ehl2022-main
 
 # 6. 删除zip文件 
-rm slidev-theme-ehl2022-main.zip
+rm ${SCRIPTPATH}/slidev-theme-ehl2022-main.zip
 
 echo -e "\n\033[32mScript successfully exetuted.\033[0m"
