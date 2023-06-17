@@ -26,7 +26,7 @@ echo -e 'A' | unzip -qq ${SCRIPTPATH}/slidev-theme-ehl2022-main.zip -d ${SCRIPTP
 
 # 4. 移动icons-pdf文件夹
 echo -e "\033[34m【QuickPoint】\033[0mMove the downloaded /icons-pdf into the same folder as the current script."
-mv ${SCRIPTPATH}/slidev-theme-ehl2022-main/resources/icons ${SCRIPTPATH}/icons
+mv ${SCRIPTPATH}/slidev-theme-ehl2022-main/resources/icons-pdf ${SCRIPTPATH}/icons-pdf
 
 # 5. 删除slidev-theme-ehl2022-main文件夹
 echo -e "\033[34m【QuickPoint】\033[0mRemove the unused folder and zip file."
