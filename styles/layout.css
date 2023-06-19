@@ -261,7 +261,7 @@
 }
 
 svg {
-  @apply fill-snow my-3 p-2;
+  @apply fill-snow my-3 p-2 max-h-24;
 }
 
 .absolute svg {
