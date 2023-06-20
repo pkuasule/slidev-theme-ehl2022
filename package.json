@@ -49,7 +49,7 @@
     "defaults": {
       "aspectRatio": "16/9",
       "canvasWidth": 1280,
-      "css": "windicss",
+      "css": "unocss",
       "fonts": {
         "sans": "San Francisco,Noto Sans Simplified Chinese,Montserrat",
         "mono": "Fira Code"
