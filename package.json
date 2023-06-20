@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "@slidev/types": "^0.40.16",
+    "@unocss/reset": "^0.53.1",
     "codemirror-theme-vars": "^0.1.2",
     "prism-theme-vars": "^0.2.4",
     "theme-vitesse": "^0.6.4"
@@ -48,7 +49,7 @@
     "defaults": {
       "aspectRatio": "16/9",
       "canvasWidth": 1280,
-      "css": "windicss",
+      "css": "unocss",
       "fonts": {
         "sans": "San Francisco,Noto Sans Simplified Chinese,Montserrat",
         "mono": "Fira Code"
