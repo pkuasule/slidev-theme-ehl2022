@@ -47,6 +47,10 @@ export default defineConfig({
       getCSS: ({ theme }) => `
         .slidev-layout {
           @apply px-12 py-8;
+
+          svg {
+            @apply max-h-18 justify-self-start;
+          }
         }
 
         h1 {
@@ -70,10 +74,6 @@ export default defineConfig({
         p {
           font-size: 0.8em;
           @apply mb-2;
-        }
-
-        svg {
-          @apply w-max max-h-15;
         }
 
         .Cover {
