@@ -1,321 +1,45 @@
-/* :root {
-  --Primary: #0048BD;
-  --Text: #001436;
-  --Secondary: #827345;
-  --Tertiary: #5B9BD5;
-  --Shade: #FAFAFA;
-  --White: #FFFFFF;
+/* Select */
+
+h1,h2,h3,p,div,img {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+pre, code {
+    -webkit-user-select: auto;
+    user-select: auto;
+}
+
+
+/* Headings and Paragraphs */
+/* Font-Size & Weight */
+
+h1 {
+    font-size: 3rem;
+    margin-left: -0.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 0.75rem;
+}
+
+/* color */
+/* .*-Primary h1, 
+.*-Primary h2, 
+.*-Primary h3,
+.*-Primary p {
+  color: white;
 } */
-
-.slidev-layout {
-  /* @apply 是 Tailwind CSS 框架提供的一种机制，用于将一个或多个样式类应用到当前元素上。 */
-  /* 所有.slidev-layout中的元素都添加左右14，上下10的padding，文本大小1.1rem */
-  @apply px-14 py-10 text-[1.1rem];
-
-  /* 防止用户选择文本 */
-  h1, h2, h3, h4, p, div {
-    @apply select-none;
-  }
-
-  /* 允许用户选中代码块的文本 */
-  pre, code {
-    @apply select-text;
-  }
-
-  h1 {
-    /* 四号字体大小、四倍行距、700加粗字体权重，并向左移动0.05个em的距离 */
-    @apply text-primary text-5xl mb-4 font-700  -ml-[0.05em] uppercase;
-  }
-
-  h2 {
-    @apply text-primary  text-3xl font-900 capitalize;
-  }
-
-  /* h1 + h2，表示选择紧接在 h1 元素后的 h2 元素 */
-  h1 + h2 {
-    @apply text-secondary -mt-2 text-1xl font-500;
-  }
-
-  h3 {
-    @apply text-primary text-2xl pt-4 pb-1 font-900 capitalize;
-  }
-
-  h4 {
-    @apply text-primary text-1xl pt-2 pb-1 font-500 uppercase;
-  }
-
-  p {
-    @apply text-dark font-normal text-sm my-2 leading-6;
-  }
-
-  h1 + p {
-    @apply -mt-2 mb-4;
-  }
-
-  p + h2, ul + h2, table + h2 {
-    @apply mt-10;
-  }
-
-  ul {
-    list-style: disc;
-    @apply mt-2 list-outside;
-  }
-
-  li {
-    @apply ml-1.1em pl-0.2em leading-1.8em mb-2;
-  }
-
-  blockquote {
-    @apply text-sm px-2 py-1 bg-$prism-background border-$slidev-theme-primary border-l;
-    @apply bg-gray-100 w-full px-4 py-4 border-primary border-l-10 my-2;
-  }
-
-  blockquote > * {
-    @apply my-0;
-  }
-
-  table {
-    @apply w-full text-sm table-auto;
-  }
-
-  thead {
-    @apply border-b-0.1em font-bold bg-blue-800 text-white;
-  }
-
-  tr {
-    @apply border-b border-gray/20 font-light;
-  }
-
-  th {
-    @apply text-left;
-  }
-
-  td, th {
-    @apply p-2 py-3;
-  }
-
-  a {
-    @apply border-current border-b border-dashed hover:(text-$slidev-theme-primary border-solid);
-  }
-
-  b, strong {
-    @apply bg-primary text-snow font-900 rounded py-1 px-2 mx-1;
-  }
-
-  em {
-    @apply not-italic bg-secondary text-snow font-900 rounded py-1 px-2 mx-1;
-  }
-
-  kbd {
-    @apply border border-gray-400 border-b-2 border-opacity-20 rounded;
-    @apply bg-gray-400 bg-opacity-5 py-0.5 px-1 text-sm font-mono;
-  }
-
-  /* divider */
-  hr {
-    @apply border-t-1 border-gray-300 border-opacity-50 mt-1.5;
-  }
-}
-
-/* Color of page */
-.primaryPage {
-  @apply bg-primary;
-  h1, h2, h3, h4, p, div {
-    @apply text-snow;
-  }
-}
-
-.secondaryPage {
-  @apply bg-secondary;
-  h1, h2, h3, h4, p, div {
-    @apply text-snow;
-  };
-  h1 + h2 {
-    @apply text-snow;
-  }
-
-}
-
-
-/* Cover */
-.slidev-layout.Cover {
-  @apply bg-primary;
-
-  h1, h2, h3, h4, p, div {
-    @apply text-snow;
-  };
-
-  h1 {
-    @apply text-7xl mb-4 font-900 -ml-[0.05em] capitalize h-screen-55 flex items-end pb-1;
-    @apply text-snow;
-  };
-
-  h2 {
-    @apply text-3xl font-500 capitalize pt-1;
-    @apply text-secondary;
-  }
-
-}
-
-/* Section aka. Title-Photo-Top */
-.slidev-layout.Title-Photo-Top {
-
-  h1 {
-    @apply text-6xl p-4;
-  };
-
-  h2 {
-    @apply text-2xl px-4;
-  }
-
-}
-
-
-/* Quote */
-.slidev-layout.Quote{
-  /* background-image: url('./resources/background-image.jpg'); */
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: auto 100%;
-  h1, h2, h3, h4, p, div {
-    @apply text-snow;
-  };
-}
-
-/* Color of text */
-.primaryText {
-  @apply text-primary;
-}
-
-.secondaryText {
-  @apply text-secondary;
-}
-
-/* Agenda */
-.agenda-left{
-  h1, h2, h3, h4, p, div {
-    @apply text-snow;
-  };
-}
-
-.agenda-right{
-  h3 {
-    @apply text-secondary;
-  };
-  p {
-    @apply text-xs;
-  }
-}
-
-
-.primaryPage {
-  thead {
-    @apply bg-transparent	;
-  }
-  tr {
-    @apply border-b border-b-white/20 font-light;
-  }
-}
-
-.secondaryPage {
-  thead {
-    @apply bg-transparent	;
-  }
-  tr {
-    @apply border-b border-b-white/20 font-light;
-  }
-}
-
-.grid li {
-  @apply text-sm pl-0.2em leading-1.8em;
-}
-
-
-/* 自定义component：Callout */
-.callout {
-  @apply bg-gray-100 w-full px-4 py-4 border-blue-800 border-l-10;
-  
-  h1 {
-    @apply text-xl font-900 uppercase mt-4 mb-2 p-0;
-    /* color: var(--Primary); */
-  }
-
-  h2 {
-    @apply text-base font-700 capitalize mt-3 mb-2 p-0;
-    /* color: var(--Primary); */
-  }
-
-  h3 {
-    @apply text-sm font-900 capitalize mt-2.5 mb-2 p-0;
-    /* color: var(--Primary); */
-  }
-
-  h4 {
-    @apply text-xs font-500 uppercase mt-2.5 mb-2 p-0;
-    /* color: var(--Primary); */
-  }
-
-  p {
-    @apply text-xs m-0;
-  }
-}
-
-svg {
-  @apply fill-snow my-3 p-2 max-h-24;
-}
-
-.absolute svg {
-    @apply my-0;
-}
-
-.Title-1Col-Snow, .Title-2Col-Snow, .Title-3Col-Snow, .Title-4Col-Snow, .Title-5Col-Snow, .Title-6Col-Snow, .Blank {
-  svg {
-    @apply fill-secondary;
-  }
-}
-
-.Title-Photo-Desc-2Col, .Title-Photo-Desc-3Col, .Title-Photo-Desc-4Col, .Title-Photo-Desc-5Col, .Title-Photo-Desc-6Col {
-  svg {
-    @apply fill-secondary;
-  }
-}
-
-.Title-2Col-Primary, .Title-2Col-Secondary, .Title-2Col-Snow, .Title-Photo-Desc-2Col {
-  .flex {
-    svg {
-      @apply h-60 w-60;
-    }
-  }
-}
-
-.Title-3Col-Primary, .Title-3Col-Secondary, .Title-3Col-Snow, .Title-Photo-Desc-3Col {
-  .flex {
-    svg {
-      @apply h-50 w-50;
-    }
-  }
-}
-
-.Title-4Col-Primary, .Title-4Col-Secondary, .Title-4Col-Snow, .Title-Photo-Desc-4Col {
-  .flex {
-    svg {
-      @apply h-30 w-30;
-    }
-  }
-}
-
-.Title-5Col-Primary, .Title-5Col-Secondary, .Title-5Col-Snow, .Title-Photo-Desc-5Col {
-  .flex {
-    svg {
-      @apply h-20 w-20;
-    }
-  }
-}
-
-.Title-6Col-Primary, .Title-6Col-Secondary, .Title-6Col-Snow, .Title-Photo-Desc-6Col {
-  .flex {
-    svg {
-      @apply h-20 w-20;
-    }
-  }
-}
