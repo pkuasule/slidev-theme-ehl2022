@@ -1,6 +1,6 @@
 /* Select */
 
-h1,h2,h3,p,div,img {
+/* h1,h2,h3,p,div,img {
     -webkit-user-select: none;
     user-select: none;
 }
@@ -8,13 +8,13 @@ h1,h2,h3,p,div,img {
 pre, code {
     -webkit-user-select: auto;
     user-select: auto;
-}
+} */
 
 
 /* Headings and Paragraphs */
 /* Font-Size & Weight */
 
-h1 {
+/* h1 {
     font-size: 3rem;
     margin-left: -0.2rem;
     font-weight: 700;
@@ -34,7 +34,7 @@ h3 {
 
 p {
     font-size: 0.75rem;
-}
+} */
 
 /* color */
 /* .*-Primary h1, 
