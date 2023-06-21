@@ -17,7 +17,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="bg-primary slidev-layout h-full w-full Title-Photo-Top primaryPage static p-0">
+  <div class="bg-primary slidev-layout h-full w-full Title-Photo-Top primaryPage static p-0 content-page">
 
     <img class="w-full h-100 object-cover object-center z-0" :src="picBG">
     

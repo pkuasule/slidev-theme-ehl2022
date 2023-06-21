@@ -1,6 +1,6 @@
 <template>
 
-  <div class="bg-snow slidev-layout h-full w-full Title-Photo-Desc-6Col">
+  <div class="bg-snow slidev-layout h-full w-full Title-Photo-Desc-6Col content-page">
 
     <div class="my-auto">
       <slot />

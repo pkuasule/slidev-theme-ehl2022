@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primary slidev-layout h-full w-full Title-1Col-Primary primaryPage">
+  <div class="bg-primary slidev-layout h-full w-full Title-1Col-Primary primaryPage content-page">
     <div class="my-auto">
       <slot />
       <footer 

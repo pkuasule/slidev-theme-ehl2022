@@ -1,6 +1,6 @@
 <template>
     <svg width="80" viewBox="0 0 3792 834" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-        <g>
+        <g class="fm_fill">
             <path d="M1074.08,666.62l-166.478,166.478l214.313,-0l166.478,-166.478l-214.313,-0Z" style="fill:#fff;fill-rule:nonzero;"/>
             <path d="M517.268,833.098l214.313,-0l367.006,-367.006l-214.313,-0l-367.006,367.006Z" style="fill:#fff;fill-rule:nonzero;"/>
             <path d="M703.069,263.679l-569.419,569.419l214.312,-0l569.419,-569.419l-214.312,-0Z" style="fill:#fff;fill-rule:nonzero;"/>

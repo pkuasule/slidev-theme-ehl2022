@@ -47,7 +47,9 @@ export default defineConfig({
       getCSS: ({ theme }) => `
         .slidev-layout {
           @apply px-12 py-8;
+        }
 
+        .content-page {
           svg {
             @apply max-h-18 justify-self-start;
           }
@@ -85,14 +87,14 @@ export default defineConfig({
           h2 {
             @apply text-tertiary;
           }
+          svg {
+            @apply max-h-80;
+          }
         }
 
         .bg-primary {
           h1, h2, h3, p {
             @apply text-snow;
-          }
-          svg {
-            @apply fill-snow;
           }
         }
 
@@ -100,12 +102,36 @@ export default defineConfig({
           h1, h2, h3, p {
             @apply text-snow;
           }
+        }
+
+        .bg-snow {
+          h1, h3, {
+            @apply text-primary;
+          }
+          h2 {
+            @apply text-secondary;
+          }
+        }
+
+        .bg-primary.content-page {
+          h1, h2, h3, p {
+            @apply text-snow;
+          }
           svg {
             @apply fill-snow;
           }
         }
 
-        .bg-snow {
+        .bg-secondary.content-page {
+          h1, h2, h3, p {
+            @apply text-snow;
+          }
+          svg {
+            @apply fill-snow;
+          }
+        }
+
+        .bg-snow.content-page {
           h1, h3, {
             @apply text-primary;
           }
@@ -119,6 +145,12 @@ export default defineConfig({
 
         hr {
           @apply mb-5;
+        }
+
+        .End-Page-Primary{
+          svg {
+            @apply max-h-80;
+          }
         }
       `
     }

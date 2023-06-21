@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-snow slidev-layout h-full w-full Title-Photo-Desc-2Col">
+  <div class="bg-snow slidev-layout h-full w-full Title-Photo-Desc-2Col content-page">
     <div class="my-auto">
       <slot />
       <div class="grid grid-cols-2 gap-6">

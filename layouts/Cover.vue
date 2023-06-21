@@ -17,11 +17,10 @@ const style = computed(() => handleBackground(props.background, true))
 
     <div class="my-auto border-t border-secondary h-full w-full grid content-center">
       
-      <slot  />
+      <slot />
 
-      <quality-assurance class="absolute fill-secondary top-25 right-40 w-60"/>
-
-      <committed-to-service-excellence class="absolute fill-snow top-10 right-10 w-80"/>
+      <quality-assurance class="absolute fill-secondary top-25 right-40 w-40"/>
+      <committed-to-service-excellence class="absolute fill-snow top-10 right-10 w-60"/>
 
       <footer 
       class="absolute text-sm bottom-2 left-12 right-12 py-2 border-t-1 border-gray-300 border-opacity-50 grid grid-cols-2 gap-4">

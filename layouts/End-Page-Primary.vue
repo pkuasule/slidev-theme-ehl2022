@@ -44,9 +44,9 @@
         </div>
       </div>
     </div>
-    <ehl-advisory-services class="absolute top-18 left-0 right-0 mx-auto fill-snow w-60"/>
-    <tailor-made class="absolute fill-secondary right-45 top-18 w-60"/>
-    <quality-assurance class="absolute fill-secondary top-12 right-12 w-70"/>
+    <ehl-advisory-services class="absolute top-18 left-0 right-0 mx-auto fill-snow w-40"/>
+    <tailor-made class="absolute fill-secondary right-45 top-18 w-35"/>
+    <quality-assurance class="absolute fill-secondary top-12 right-12 w-40"/>
 
   </div>
 </template>

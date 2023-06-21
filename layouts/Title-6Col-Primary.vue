@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primary slidev-layout h-full w-full Title-6Col-Primary primaryPage">
+  <div class="bg-primary slidev-layout h-full w-full Title-6Col-Primary primaryPage content-page">
     <div class="my-auto">
       <slot />
       <div class="grid grid-cols-6 gap-6">

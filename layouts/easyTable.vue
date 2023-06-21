@@ -1,6 +1,6 @@
 <template>
     <div 
-        class="slidev-layout cover h-full w-full Cover"
+        class="slidev-layout h-full w-full content-page"
         :style="style"
     >
         <div class="my-auto border-t border-secondary h-full w-full grid content-center">

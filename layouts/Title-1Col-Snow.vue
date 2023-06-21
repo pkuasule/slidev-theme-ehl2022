@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-snow slidev-layout h-full w-full Title-1Col-Snow">
+  <div class="bg-snow slidev-layout h-full w-full Title-1Col-Snow content-page">
     <div class="my-auto">
       <slot />
       <footer 
