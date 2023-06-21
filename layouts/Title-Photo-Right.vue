@@ -18,11 +18,11 @@ const props = defineProps({
 
 <template>
 
-  <div class="slidev-layout h-screen w-full Title-Photo-Right p-0">
+  <div class="bg-snow slidev-layout h-screen w-full Title-Photo-Right p-0">
 
     <div class="h-full grid grid-cols-2 gap-6">
 
-      <div class="flex flex-col p-12 w-full items-left content-end">
+      <div class="flex flex-col py-8 px-12 w-full items-left content-end">
           <slot />
       </div>
 
@@ -33,7 +33,6 @@ const props = defineProps({
     </div>
 
     <footer 
-      v-if="$slidev.nav.currentLayout == 'Title-Photo-Right'"
       class="absolute bottom-2 left-12 right-12 grid grid-cols-2 gap-16">
         <div class="py-2 border-t-1 border-gray-300">
           <ehl-logo-secondary />
