@@ -72,6 +72,10 @@ export default defineConfig({
           @apply mb-2;
         }
 
+        svg {
+          @apply w-max max-h-15;
+        }
+
         .Cover {
           @apply bg-primary;
 
@@ -87,11 +91,17 @@ export default defineConfig({
           h1, h2, h3, p {
             @apply text-snow;
           }
+          svg {
+            @apply fill-snow;
+          }
         }
 
         .bg-secondary {
           h1, h2, h3, p {
             @apply text-snow;
+          }
+          svg {
+            @apply fill-snow;
           }
         }
 
@@ -101,6 +111,9 @@ export default defineConfig({
           }
           h2 {
             @apply text-secondary;
+          }
+          svg {
+            @apply fill-secondary;
           }
         }
 
