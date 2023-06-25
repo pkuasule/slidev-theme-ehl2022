@@ -118,7 +118,7 @@ export default defineConfig({
             @apply text-snow;
           }
           svg {
-            @apply fill-snow;
+            @apply fill-snow place-self-start/>;
           }
         }
 
@@ -127,7 +127,7 @@ export default defineConfig({
             @apply text-snow;
           }
           svg {
-            @apply fill-snow;
+            @apply fill-snow place-self-start;
           }
         }
 
@@ -139,7 +139,7 @@ export default defineConfig({
             @apply text-secondary;
           }
           svg {
-            @apply fill-secondary;
+            @apply fill-secondary place-self-start;
           }
         }
 
