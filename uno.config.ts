@@ -28,15 +28,15 @@ export default defineConfig({
     ]
   },
   presets: [
-    presetUno(),
-    presetAttributify(),
-    presetIcons(),
-    presetTypography(),
-    presetWebFonts({
-      fonts: {
-        // ...
-      },
-    }),
+    // presetUno(),
+    // presetAttributify(),
+    // presetIcons(),
+    // presetTypography(),
+    // presetWebFonts({
+    //   fonts: {
+    //     // ...
+    //   },
+    // }),
   ],
   transformers: [
     transformerDirectives(),
