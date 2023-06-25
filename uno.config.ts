@@ -51,7 +51,7 @@ export default defineConfig({
 
         .content-page {
           svg {
-            @apply max-h-18 justify-self-start;
+            @apply max-h-18 place-self-start;
           }
         }
 
@@ -70,12 +70,61 @@ export default defineConfig({
         h3 {
           font-size: 1em;
           font-weight: 700;
-          @apply p-0 m-0 mt-4;
+          @apply p-0 m-0 mt-4 mb-2;
         }
 
         p {
           font-size: 0.8em;
-          @apply mb-2;
+          @apply mb-2 font-thin;
+        }
+
+        ul {
+          list-style: disc;
+        }
+      
+        li {
+          @apply ml-1.1em pl-0.2em font-thin;
+        }
+      
+        blockquote {
+          @apply text-sm p-4 mt-2;
+        }
+      
+        blockquote > * {
+          @apply my-0;
+        }
+      
+        table {
+          @apply w-full text-sm table-auto;
+        }
+      
+        thead {
+          @apply border-b-0.1em font-bold bg-blue-800 text-white;
+        }
+      
+        tr {
+          @apply border-b border-gray/20 font-thin;
+        }
+      
+        th {
+          @apply text-left;
+        }
+      
+        td, th {
+          @apply p-2 py-3;
+        }
+      
+        a {
+          @apply border-current border-b border-dashed hover:(text-$slidev-theme-primary border-solid);
+        }
+      
+        b, strong {
+          @apply font-900;
+        }
+      
+        kbd {
+          @apply border border-gray-400 border-b-2 border-opacity-20 rounded;
+          @apply bg-gray-400 bg-opacity-5 py-0.5 px-1 text-sm font-mono;
         }
 
         .Cover {
@@ -96,11 +145,29 @@ export default defineConfig({
           h1, h2, h3, p {
             @apply text-snow;
           }
+          li::marker {
+            color: ${theme.colors.snow};
+          }
+          b, strong {
+            @apply py-0.5 px-2 rounded bg-snow text-primary;
+          }
+          blockquote {
+            @apply bg-snow bg-opacity-10 border-l-4 border-snow;
+          }
         }
 
         .bg-secondary {
           h1, h2, h3, p {
             @apply text-snow;
+          }
+          li::marker {
+            color: ${theme.colors.snow};
+          }
+          b, strong {
+            @apply py-0.5 px-2 rounded bg-snow text-secondary;
+          }
+          blockquote {
+            @apply bg-snow bg-opacity-10 border-l-4 border-snow;
           }
         }
 
@@ -111,6 +178,15 @@ export default defineConfig({
           h2 {
             @apply text-secondary;
           }
+          li::marker {
+            color: ${theme.colors.secondary};
+          }
+          b, strong {
+            @apply py-0.5 px-2 rounded bg-primary text-snow;
+          }
+          blockquote {
+            @apply bg-gray bg-opacity-10 border-l-4 border-primary;
+          }
         }
 
         .bg-primary.content-page {
@@ -118,7 +194,7 @@ export default defineConfig({
             @apply text-snow;
           }
           svg {
-            @apply fill-snow place-self-start/>;
+            @apply fill-snow;
           }
         }
 
@@ -127,7 +203,7 @@ export default defineConfig({
             @apply text-snow;
           }
           svg {
-            @apply fill-snow place-self-start;
+            @apply fill-snow;
           }
         }
 
@@ -139,7 +215,7 @@ export default defineConfig({
             @apply text-secondary;
           }
           svg {
-            @apply fill-secondary place-self-start;
+            @apply fill-secondary;
           }
         }
 
