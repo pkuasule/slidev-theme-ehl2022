@@ -1,44 +1,44 @@
-<template><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<template><svg  version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <g>
 	<g>
-		<rect x="240.83" y="178.28" width="30.333" height="30.333"/>
+		<rect x="240.83" y="178.28"  height="30.333"/>
 	</g>
 </g>
 <g>
 	<g>
 		
-			<rect x="325.666" y="201.703" transform="matrix(0.5294 -0.8484 0.8484 0.5294 -23.588 391.2175)" width="30.334" height="30.334"/>
+			<rect x="325.666" y="201.703" transform="matrix(0.5294 -0.8484 0.8484 0.5294 -23.588 391.2175)"  height="30.334"/>
 	</g>
 </g>
 <g>
 	<g>
 		
-			<rect x="378.709" y="262.452" transform="matrix(0.8982 -0.4395 0.4395 0.8982 -81.9347 201.3672)" width="30.332" height="30.332"/>
+			<rect x="378.709" y="262.452" transform="matrix(0.8982 -0.4395 0.4395 0.8982 -81.9347 201.3672)"  height="30.332"/>
 	</g>
 </g>
 <g>
 	<g>
 		
-			<rect x="391.596" y="342.077" transform="matrix(0.1026 -0.9947 0.9947 0.1026 9.6686 725.2045)" width="30.332" height="30.332"/>
+			<rect x="391.596" y="342.077" transform="matrix(0.1026 -0.9947 0.9947 0.1026 9.6686 725.2045)"  height="30.332"/>
 	</g>
 </g>
 <g>
 	<g>
 		
-			<rect x="156.004" y="201.716" transform="matrix(0.8484 -0.5294 0.5294 0.8484 -88.862 123.4993)" width="30.334" height="30.334"/>
+			<rect x="156.004" y="201.716" transform="matrix(0.8484 -0.5294 0.5294 0.8484 -88.862 123.4993)"  height="30.334"/>
 	</g>
 </g>
 <g>
 	<g>
 		
-			<rect x="102.933" y="262.471" transform="matrix(0.4395 -0.8982 0.8982 0.4395 -183.1905 261.6917)" width="30.332" height="30.332"/>
+			<rect x="102.933" y="262.471" transform="matrix(0.4395 -0.8982 0.8982 0.4395 -183.1905 261.6917)"  height="30.332"/>
 	</g>
 </g>
 <g>
 	<g>
 		
-			<rect x="90.069" y="342.073" transform="matrix(0.9947 -0.1026 0.1026 0.9947 -36.0983 12.6828)" width="30.332" height="30.332"/>
+			<rect x="90.069" y="342.073" transform="matrix(0.9947 -0.1026 0.1026 0.9947 -36.0983 12.6828)"  height="30.332"/>
 	</g>
 </g>
 <g>
@@ -48,17 +48,17 @@
 </g>
 <g>
 	<g>
-		<rect x="318.33" y="52.667" width="30.333" height="30.333"/>
+		<rect x="318.33" y="52.667"  height="30.333"/>
 	</g>
 </g>
 <g>
 	<g>
-		<rect x="372" y="52.667" width="30.333" height="30.333"/>
+		<rect x="372" y="52.667"  height="30.333"/>
 	</g>
 </g>
 <g>
 	<g>
-		<rect x="425.67" y="52.667" width="30.333" height="30.333"/>
+		<rect x="425.67" y="52.667"  height="30.333"/>
 	</g>
 </g>
 <g>

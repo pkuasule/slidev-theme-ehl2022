@@ -1,4 +1,4 @@
-<template><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<template><svg  version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <g>
 	<g>
@@ -20,32 +20,32 @@
 </g>
 <g>
 	<g>
-		<rect x="287.6" y="76.67" width="69.33" height="30"/>
+		<rect x="287.6" y="76.67"  height="30"/>
 	</g>
 </g>
 <g>
 	<g>
-		<rect x="287.6" y="131.67" width="69.33" height="30"/>
+		<rect x="287.6" y="131.67"  height="30"/>
 	</g>
 </g>
 <g>
 	<g>
-		<rect x="157.6" y="185.67" width="199.33" height="30"/>
+		<rect x="157.6" y="185.67"  height="30"/>
 	</g>
 </g>
 <g>
 	<g>
-		<rect x="157.6" y="239.67" width="199.33" height="30"/>
+		<rect x="157.6" y="239.67"  height="30"/>
 	</g>
 </g>
 <g>
 	<g>
-		<rect x="157.6" y="293.67" width="199.33" height="30"/>
+		<rect x="157.6" y="293.67"  height="30"/>
 	</g>
 </g>
 <g>
 	<g>
-		<rect x="157.6" y="347.67" width="199.33" height="30"/>
+		<rect x="157.6" y="347.67"  height="30"/>
 	</g>
 </g>
 <g>
