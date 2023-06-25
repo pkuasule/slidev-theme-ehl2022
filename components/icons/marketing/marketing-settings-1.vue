@@ -1,4 +1,4 @@
-<template><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<template><svg  version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <g>
 	<g>
@@ -16,17 +16,17 @@
 </g>
 <g>
 	<g>
-		<rect x="318.33" y="52.667" width="30.333" height="30.333"/>
+		<rect x="318.33" y="52.667"  height="30.333"/>
 	</g>
 </g>
 <g>
 	<g>
-		<rect x="372" y="52.667" width="30.333" height="30.333"/>
+		<rect x="372" y="52.667"  height="30.333"/>
 	</g>
 </g>
 <g>
 	<g>
-		<rect x="425.67" y="52.667" width="30.333" height="30.333"/>
+		<rect x="425.67" y="52.667"  height="30.333"/>
 	</g>
 </g>
 <g>

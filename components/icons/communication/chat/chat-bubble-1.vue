@@ -1,1 +1,0 @@
-<template><svg height="512pt" viewBox="0 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg"><path d="m60 511.511719v-121.511719h-60v-390h512v390h-340.410156zm-30-151.511719h60v74.492188l68.410156-74.492188h323.589844v-330h-452zm0 0"/></svg></template>
