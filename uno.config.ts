@@ -75,7 +75,7 @@ export default defineConfig({
 
         p {
           font-size: 0.8em;
-          @apply mb-2 font-thin;
+          @apply mb-2 font-extralight;
         }
 
         ul {
@@ -83,7 +83,7 @@ export default defineConfig({
         }
       
         li {
-          @apply ml-1.1em pl-0.2em font-thin;
+          @apply ml-1.1em pl-0.2em font-extralight;
         }
       
         blockquote {
@@ -103,7 +103,7 @@ export default defineConfig({
         }
       
         tr {
-          @apply border-b border-gray/20 font-thin;
+          @apply border-b border-gray/20 font-extralight;
         }
       
         th {
@@ -119,7 +119,7 @@ export default defineConfig({
         }
       
         b, strong {
-          @apply font-900;
+          @apply font-900 py-0.5 px-2 mx-3 rounded;
         }
       
         kbd {
@@ -149,7 +149,7 @@ export default defineConfig({
             color: ${theme.colors.snow};
           }
           b, strong {
-            @apply py-0.5 px-2 rounded bg-snow text-primary;
+            @apply bg-snow text-primary;
           }
           blockquote {
             @apply bg-snow bg-opacity-10 border-l-4 border-snow;
@@ -164,7 +164,7 @@ export default defineConfig({
             color: ${theme.colors.snow};
           }
           b, strong {
-            @apply py-0.5 px-2 rounded bg-snow text-secondary;
+            @apply bg-snow text-secondary;
           }
           blockquote {
             @apply bg-snow bg-opacity-10 border-l-4 border-snow;
@@ -182,7 +182,7 @@ export default defineConfig({
             color: ${theme.colors.secondary};
           }
           b, strong {
-            @apply py-0.5 px-2 rounded bg-primary text-snow;
+            @apply bg-primary text-snow;
           }
           blockquote {
             @apply bg-gray bg-opacity-10 border-l-4 border-primary;
@@ -190,18 +190,12 @@ export default defineConfig({
         }
 
         .bg-primary.content-page {
-          h1, h2, h3, p {
-            @apply text-snow;
-          }
           svg {
             @apply fill-snow;
           }
         }
 
         .bg-secondary.content-page {
-          h1, h2, h3, p {
-            @apply text-snow;
-          }
           svg {
             @apply fill-snow;
           }
