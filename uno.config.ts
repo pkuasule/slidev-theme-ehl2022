@@ -83,6 +83,7 @@ export default defineConfig({
         }
       
         li {
+          font-size: 0.8em;
           @apply ml-1.1em pl-0.2em font-extralight;
         }
       
