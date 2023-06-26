@@ -148,6 +148,9 @@ export default defineConfig({
           li::marker {
             color: ${theme.colors.snow};
           }
+          li {
+            @apply text-snow;
+          }
           b, strong {
             @apply bg-snow text-primary;
           }
@@ -162,6 +165,9 @@ export default defineConfig({
           }
           li::marker {
             color: ${theme.colors.snow};
+          }
+          li {
+            @apply text-snow;
           }
           b, strong {
             @apply bg-snow text-secondary;
