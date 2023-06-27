@@ -45,6 +45,10 @@ export default defineConfig({
   preflights: [
     {
       getCSS: ({ theme }) => `
+        nav {
+          display: none;
+        }
+
         .slidev-layout {
           @apply px-12 py-8;
         }
