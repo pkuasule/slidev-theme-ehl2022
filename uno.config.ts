@@ -55,7 +55,7 @@ export default defineConfig({
 
         .content-page {
           svg {
-            @apply max-h-18 place-self-start;
+            @apply mt-4 mb-2 max-h-18 place-self-start;
           }
         }
 
@@ -124,7 +124,7 @@ export default defineConfig({
         }
       
         b, strong {
-          @apply font-900 py-0.5 px-2 mx-3 rounded;
+          @apply font-900 py-0.5 px-2 mx-1 rounded;
         }
       
         kbd {

@@ -1,0 +1,54 @@
+<template><svg  version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M512,400.5v-364H0v364h203.5v45H184v30h144v-30h-19.5v-45H512z M30,66.5h452v230.209H30V66.5z M278.5,445.5h-45v-45h45
+			V445.5z M30,370.5v-43.791h452V370.5H30z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M143.33,158.17V86.5h-30v71.67H80.67v96h32.66v25h30v-25h33.34v-96H143.33z M146.67,224.17h-36v-36h36V224.17z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M270.67,112.83V86.5h-30v26.33H208v96h32.67v70.34h30v-70.34H304v-96H270.67z M274,178.83h-36v-36h36V178.83z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M398,158.17V86.5h-30v71.67h-32.67v96H368v25h30v-25h33.33v-96H398z M401.33,224.17h-36v-36h36V224.17z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg></template>

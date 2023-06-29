@@ -1,0 +1,1 @@
+<template><svg  id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512"  xmlns="http://www.w3.org/2000/svg"><g><path d="m392 396h-272v-280h272zm-232-40h192v-200h-192zm352 0h-80v-40h40v-120h-40v-40h80zm-432 0h-80v-200h80v40h-40v120h40zm232-40h-112v-40h112zm0-80h-112v-40h112z"/></g></svg></template>
